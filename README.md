@@ -13,8 +13,8 @@ En la carpeta de *[documentation](https://github.com/SanchezGarciaEmilio/2020-11
 
 ### Búsquedas
 
-En la misma carpeta de *source* tenemos las búsquedas hechas en el archivo de *[query](https://github.com/SanchezGarciaEmilio/2020-11-23_proyecto/tree/main/src/query)*. Dentro tendremos tres archivos, uno por cada colección. Tenemos el de *[Empleados](https://github.com/SanchezGarciaEmilio/2020-11-23_proyecto/blob/main/src/query/query-Empleados.js)*, el de *[Clientes](https://github.com/SanchezGarciaEmilio/2020-11-23_proyecto/blob/main/src/query/query-Clientes.js)* y el de *[Productos](https://github.com/SanchezGarciaEmilio/2020-11-23_proyecto/blob/main/src/query/query-Productos.js)*.
-En el *query* haremos las búsquedas en la base de datos con el `find()`. Usaremos distintas cláusulas como `$and`, `$gt`, `$nin` o `$regex` entre otros.
+En la misma carpeta de *source* tenemos las búsquedas hechas en el archivo de *[query](https://github.com/SanchezGarciaEmilio/2020-12-21_ventas/tree/main/src/query)*. Dentro tendremos el archivo de las *[búsquedas](https://github.com/SanchezGarciaEmilio/2020-12-21_ventas/blob/main/src/query/query.js)*
+En el *query* haremos las búsquedas en la base de datos con el `aggregation()`, usando esta vez distintas cláusulas a las anteriores (las usadas con el `find()`) o reciclando alguna con un formato distinto.
 
 
 > Emilio Sánchez García

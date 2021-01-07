@@ -48,10 +48,3 @@ db.sales.aggregate([
         vip: {$gte: [{$sum: {$multiply: ["$unitary_prize","$stock"]}},2000]}
     }}
 ])
-
-
-//
-
-db.sales.aggregate([
-    
-])
